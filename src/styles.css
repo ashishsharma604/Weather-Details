@@ -1,0 +1,36 @@
+.toggle-style div{
+    width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  margin-left: 600px;
+  cursor: pointer;
+  
+}
+
+.NavItem {
+    color: green;
+    padding: 10px;
+
+}
+
+.NavItems {
+    color: green;
+    float: left;
+    background: blue;
+    margin: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+.NavItem a {
+    float: left;
+}
+
+.NavLink {
+    margin : 10px
+}
+
+.Extra-info-Modal {
+    width: 50%;
+    margin-left: 27%;
+}

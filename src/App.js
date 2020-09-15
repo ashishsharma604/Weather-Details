@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import WeatherInfo from './components/WeatherInfo'
+import WeatherConnector from './components/WeatherConnector'
+import {APP_KEY} from './constants'
+import backImg from './images/weather1.jpg'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundImage : `url(${backImg})`}}>
+      <WeatherConnector APP_KEY={APP_KEY}/>
     </div>
   );
 }

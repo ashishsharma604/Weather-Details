@@ -1,3 +1,19 @@
+
+## Structure of the App
+-> A Higher Order component name 'WeatherConnector.js' Created which Connect with other three child Components.
+-> Three other Components are WeatherInfo, ForeCastChart, ForeCastTable
+-> A Constant File was created that can store the APPID and other constant details
+-> A reusable component named City.js created that let's you choose the city for showing the weather details
+
+
+## Library used 
+-> npm i reactstrap
+-> npm i react-table-6
+-> npm i react-chartjs-2
+
+## Styling
+-> At few places Inline styling was used 
+-> Styles.js file created that is being used in multiple components
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
